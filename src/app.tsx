@@ -1,14 +1,6 @@
-import React from "react";
-import TemplateContainer from "./pages/store/templateContainer";
-import { Route, Redirect } from "react-router-dom";
+import React from 'react';
+import HomePage from './pages/HomePage';
 
-function App() {
-  return (
-    <>
-      <Redirect from="/" to="/template" />
-      <Route path="/template" component={TemplateContainer} />
-    </>
-  );
-}
+const App = () => <HomePage />;
 
 export default App;

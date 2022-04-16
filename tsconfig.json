@@ -6,6 +6,7 @@
     "noResolve": false,
     "noImplicitAny": true,
     "removeComments": true,
+    "strict": true,
     "sourceMap": true,
     "allowJs": true,
     "jsx": "react",
